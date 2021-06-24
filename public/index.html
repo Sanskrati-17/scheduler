@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="calender">
+            <div class="filter">
+                <div class="f">
+                    <input type="text">
+                    <button>Filter</button>
+                </div>
+                <div class="view">
+                    <button><a href="day.html">Days</a></button>
+                    <button><a href="week.html">Week</a></button>
+                    <button><a href="index.html">Month</a></button>
+                </div>
+            </div>
+            <div class="month">
+
+                <i class="fas fa-angle-left priv"></i>
+                <div class="date">
+                    <h1></h1>
+                    <p></p>
+
+                </div>
+                <i class="fas fa-angle-right next"></i>
+            </div>
+            <div class="weekdays">
+                <div>Sun</div>
+                <div>Mon</div>
+                <div>Tues</div>
+                <div>Wed</div>
+                <div>Thu</div>
+                <div>Fri</div>
+                <div>Sat</div>
+            </div>
+            
+            <div class="days">
+                <div class="priv-date"></div>
+                <div class="next-date"></div>
+            </div>
+            
+            <div class="add">
+                <div class="teacher">
+                    <a href="form2.html"><i class="fas fa-plus addteacher" href="form.html">Teacher</i></a>
+                </div>
+                <div class="event">
+                    <a href="form.html"><i class="fas fa-plus-circle addclass" > Class</i></a>
+                </div>
+            </div>
+           
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
